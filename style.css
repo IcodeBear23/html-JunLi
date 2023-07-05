@@ -1,0 +1,74 @@
+.gradient-background {
+    background: linear-gradient(300deg, #9AC5F4, #99DBF5, #A7ECEE);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  body {
+    color: #001c30;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+  }
+
+  .title_pic{
+    display: flex;
+    justify-content: center;
+  }
+
+  .title-text {
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #title .lead {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    padding-top: 5px;
+    font-weight:normal;
+  }
+  
+  .h2-title {
+    color:#0A6EBD;
+    font-family: 'Montserrat', sans-serif;
+    font-size:2.5rem;
+  }
+  .mid-text {
+    text-align: left;
+    font-family: 'Merriweather', serif;
+  }
+
+  .skill-pic {
+    display: flex;
+    justify-content: left;
+  }
+  .skill-list {
+    margin-top: 2%;
+    font-family: "Montserrat", sans-serif;
+    color: #001c30;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    background: #0A6EBD;
+    margin-top: 20px;
+    margin-right: 50px;
+  }
+
+  #Footer{
+    padding: 30px 0 20px;  
+  }
